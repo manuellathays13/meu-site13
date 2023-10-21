@@ -11,7 +11,7 @@ body{
     width: 100%; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#7aeef8, #c7c8c8);
+    background: linear-gradient(#c58cab, #bd6997);
     background-repeat: no-repeat;
 }   
 /* Logo  */ 
@@ -22,7 +22,7 @@ body{
 .imagem img{
     width: 170px;
     border-radius: 200px;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 /* Titulo */ 
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: #308ff4;
+    color: #ca3286;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -44,7 +44,7 @@ body{
     justify-content:center;
     align-items:center; /* alinhamento de itens  */
 }
-.icon, .email {
+.icon, #email {
     display: inline-block;
     height: 35px;
     width: 35px;
@@ -55,7 +55,7 @@ body{
     margin: 3px;
     overflow: hidden;
 }
-.icon i, .email i{
+.icon i, #email i{
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -64,7 +64,7 @@ body{
     font-size: 22px;
     border-radius: 30px;
     background-color: rgb(237, 237, 237);
-    color:#308ff4;  /* Cor do Icone */
+    color:#630875;  /* Cor do Icone */
     cursor: pointer;
 }
 .icon span a{
@@ -73,7 +73,7 @@ body{
     float: right;
     margin-right: 23px;
     font-weight: 100;
-    color:#308ff4 ; /* Cor do Icone */
+    color:#8814a5 ; /* Cor do Icone */
     line-height: 35px;
     font-size: 17px;
 }
@@ -87,24 +87,24 @@ body{
     font-size: 17px;
 }
 .icon:hover{
-    width: 125px;
+    width: 140px;
     background-color: rgb(237, 237, 237);
     border-radius: 20px;
 }
 .icon:nth-child(1):hover i{
-    background: #030303;
+    background: #f175d2;
 }
 .icon:nth-child(2):hover i{
-    background: #df4bf2;
+    background: #f175d2;
 }
 .icon:nth-child(3):hover i{
-    background: #41adec;
+    background: #f175d2;
 }
 .icon:nth-child(4):hover i{
-    background: #030303;
+    background: #f175d2;
 }
 .email:hover i {
-    background: red;    
+    background: f175d2;    
 }
 
 /* FiM DAS REDES*/
@@ -112,6 +112,7 @@ body{
 /* CSS TEXTO */
 
 .texto{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,54 +126,54 @@ body{
     height: 150px;
     padding: 30px 35px;
     border-radius: 5px;
-    color: aliceblue;
-    background-color: #c42486;
+    color: rgb(21, 23, 24);
+    background-color: #e9afd3;
     overflow: hidden;
-    box-shadow: 0 3px 3px rgb(0, 0, 0, 0.1); /*RGBA = AlPhA PARA TRANSPARENCIAS */
+    box-shadow: 0 3px 3px rgba(165, 47, 47, 0.1); /*RGBA = AlPhA PARA TRANSPARENCIAS */
     cursor: pointer; 
 }
-.titulo{
+#sobre-mim{
+    position: absolute;
+    top: -5px;
     display: flex;
     justify-content: center; /* centralizar Texto */
-    align-items: center;
+    align-items: center; 
     margin: auto;
     margin-top: 20px;
     display: flex;
-    color: #308ff4;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: justify;
+    
 
 }
-.linguagens{
+.Linguagens{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 40px;
 
 }
-.linguagens img {
+.Linguagens img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    border-radius: 200px;
-    margin: 5px;
-    box-shadow: 2px 2px 2px rgb(98, 98, 98);
+    width: 300px;
+    margin: 30px;
+    border-radius: 150PX;
+
 }
-.projetos{
+.projetos{ 
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column;
+
     
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.projetos a{
+    text-decoration: none;
+    color: rgb(236, 247, 225)
+}
 
 
 
@@ -181,15 +182,15 @@ body{
     display: flex; /* nulo */
     align-items: center;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
-    color: #41adec;
-    border: 5px solid #41adec;
+    color: #131212;
+    border: 5px solid #99478b;
     border-radius: 50px;
     width: 570px;
     height: 60px;
     margin-bottom: 7px;
-    background: rgb(105, 98, 98)
+    background: rgb(235, 117, 146)
     0 5px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
@@ -203,7 +204,7 @@ body{
     display: block;
 }
 .rodape{
-    color: #308ff4;
+    color: #8a0753;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -214,17 +215,109 @@ body{
 
 
 
-    
-
-    
-    
-
-
-    
-
-
-
-.titulo1{
+.subtitulo{
     margin-top: 40px;
-    color: rgb(160, 11, 68);
+    color: rgb(168, 18, 75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+   
+}
+
+/* fim das configuracoes
+
+
+/* Dispositivos Mobieles */
+@media (max-width:700px){
+    .imagem img{
+        width: 150px;
+        border-radius: 200px;
+        margin-top: 30px;
+
+}
+
+.texto{
+    width: 350px;
+    height: 500px;
+}
+
+.Linguagens img{
+    width: 165px;
+}
+
+.item{
+    width: 350px;
+
+}
+
+#video{
+    width: 330px;
+}
+
+
+}/*Fim resolucao 700px*/
+
+@media (max-width :500px){
+    .imagem img{
+        width: 120px;
+    }
+
+    .texto{
+        padding: 15px;
+        width: 244px;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .subtitulo{
+        font-size: 22px;
+        margin-top: 22px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #video{
+        width: 270px;
+        height: 160px;
+    }
+    .item{
+        width: 265px;
+        height: 40px;
+    }
+
+    .linguagem img {
+        margin-top: 15px;
+        width: 128px;
+    }
+
+    .icon ,#email{
+        width: 25px;
+        height: 25px;
+        border-radius: 30px;
+    }
+
+    .icon i, #email i{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+
+    .icon span {
+        margin-right: 43px;
+        line-height: 20px;
+        font-size: 30px;
+    }
+
+    .rodape{
+        font-size: 20px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+        
+    /*fim resolucao 500px*/
 }
